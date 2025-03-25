@@ -3,14 +3,14 @@ import React from "react";
 const OptimizedHeroSection = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-b from-white to-blue-100 text-center px-4">
-      <h2 className="text-lg font-semibold text-gray-800">STUDY<span className="font-bold">table</span></h2>
+      <h2 className="text-3xl  mb-10 font-semibold text-gray-800">STUDY<span className="font-bold">table</span></h2>
 
       <div className="mt-4 px-4 py-2 bg-blue-100 text-blue-600 rounded-full text-sm font-medium flex items-center gap-2">
         <span>⚡</span> AI-Home Tutor
       </div>
 
       <h1 className="mt-4 text-4xl md:text-5xl font-bold text-black">
-        <span className="text-blue-600">Optimize</span> Your Performance For <br />
+        <span className="text-blue-600">Optimize</span> Your <br/> Performance For <br />
         <span className="text-blue-600">JEE, NEET,</span> and <span className="text-blue-600">Boards</span>
       </h1>
 

@@ -1,17 +1,20 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NameSignup from './components/NameSignup';
-
+import LandingPage from './components/LandingPage'
+import Signin from './components/Signin';
+import NoticeBoard from './components/Notice/noticeboard';
+import Blog from './components/blog/blog';
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/signup" element={<NameSignup />} />
-        <Route path="/" element={
-          <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-b from-blue-50 to-white">
-            <h1 className="text-4xl font-bold mt-12">Welcome</h1>
-          </div>
-        } />
+        <Route path="/signin" element={<Signin />} />
+        <Route path='/noticeboard' element={<NoticeBoard />} />
+        <Route path='/' element={<LandingPage />} />
+                <Route path='/blog' element={<Blog />} />
+
       </Routes>
     </Router>
   );

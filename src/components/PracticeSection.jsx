@@ -13,15 +13,15 @@ export default function PracticeSection() {
         </div>
       </div>
 
-      <h2 className="text-3xl font-bold text-black">
+      <h2 className="text-4xl w-3xl font-semibold text-black">
         Practice Previous Year Paper <br /> & Win Prices
       </h2>
 
-      <p className="text-gray-500 text-lg">
+      <p className="text-gray-500 text-lg mt-2">
         35 year JEE and NEET 15 year Boards paper
       </p>
 
-      <button className="bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-medium hover:bg-blue-700 transition">
+      <button className="bg-blue-600 text-white px-10 mt-6 py-3 rounded-lg text-lg font-medium hover:bg-blue-700 transition">
         Practice for Free
       </button>
     </div>

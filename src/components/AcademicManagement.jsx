@@ -1,6 +1,5 @@
 import React from "react";
-import Academic from '../assets/svg/academic.jsx';
-
+import ManagingStudent from "./svg/managingStudent";
 const AcademicManagement = () => {
   return (
     <div className="flex flex-col lg:flex-row items-center justify-between px-10 py-16 max-w-6xl mx-auto">
@@ -21,7 +20,7 @@ const AcademicManagement = () => {
       </div>
 
       <div className="lg:w-1/2 flex justify-center mt-10 lg:mt-0">
-        <img src={Academic} alt="Academic Management" className="w-full h-auto" />
+      <ManagingStudent/>
       </div>
     </div>
   );
