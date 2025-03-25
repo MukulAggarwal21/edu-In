@@ -1,14 +1,16 @@
-
 import './App.css'
-import NameSignup from './components/NameSignup'
-function App() {
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import LandingPage from './components/LandingPage'
+import ProductStrategy from './components/ProductStrategy'
 
+function App() {
   return (
-    <>
-      <div>
-        <NameSignup />
-      </div>
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/product-strategy" element={<ProductStrategy />} />
+      </Routes>
+    </Router>
   )
 }
 
